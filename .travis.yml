@@ -4,9 +4,10 @@ jdk:
 script: ant build
 deploy:
   - provider: s3
-    access_key_id: $AWS_USER
+    access_key_id: $AWS_ACCESS
     secret_access_key: $AWS_KEY
-    bucket: 'sana-bucket111'
+    bucket: 'bh2-bucket-aws'
+    region: 'us-east-2'
     skip_cleanup: true
     
 
