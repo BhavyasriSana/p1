@@ -6,10 +6,7 @@ deploy:
   - provider: s3
     access_key_id: $AWS_USER
     secret_access_key: $AWS_KEY
-<<<<<<< HEAD
     bucket: 'sana-bucket111'
     skip_cleanup: true
-=======
-    bucket: 'uv-bucket-aws'
-    skip_cleanup: true
->>>>>>> fc61a613a23bb7ba91e3597fd53e5cfb55300eb4
+    
+
